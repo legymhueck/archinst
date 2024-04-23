@@ -1,6 +1,6 @@
-# (Almost) unattended installation script for Arch Linux.
+# (Almost) unattended installation script for Arch Linux
 
-- This script is intended to be used to install Arch Linux on a new machine with minimal user interaction.
+- This script installs Arch Linux on a new machine with minimal user interaction.
 - It uses UKIs, i.e. Unified Kernel Images, to boot the system.
 - If the TPM is in setup mode, the script will sign the UKI with the TPM.
 
@@ -22,3 +22,7 @@
 - Disk is partitioned with a 512MB EFI partition and the rest is used for the root partition.
 - The root partition is formatted with btrfs.
   - Compression can later be enabled in `/etc/fstab`, e. g. by adding `compress=zstd:1` (for best read performance) or `compress=zstd:3` (for more focus on compression ratio) to the options.
+
+## Cerdits
+
+- The script is based on [Walian's Tech/Linux Blog](https://www.walian.co.uk/tag/arch-linux.html).
