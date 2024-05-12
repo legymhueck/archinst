@@ -34,6 +34,7 @@ pacstrappacs=(
     cryptsetup
     dosfstools
     e2fsprogs
+    efivar
     firewalld
     git
     kitty
