@@ -34,6 +34,7 @@ pacstrappacs=(
     cryptsetup
     dosfstools
     e2fsprogs
+    efitools
     efivar
     firewalld
     git
@@ -57,8 +58,10 @@ pacstrappacs=(
     python-pip
     python-setuptools
     sbctl
+    sbsetuptools
     starship
     sudo
+    systemd-ukify
     udisks2
     unzip
     util-linux
